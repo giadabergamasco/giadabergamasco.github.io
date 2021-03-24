@@ -1,6 +1,55 @@
-<body>
-h1 {
-    color: red;
-    font-size: 100pt;
-    }
-</body>
+h1  {
+    color: white;
+    font-size:22pt;
+}
+
+body {
+     color:#DCDCDC;
+     font-family: Helvetica;
+     font-style: normal;
+     background-color:#151515;
+}
+
+.logo{
+      padding:0px 0px 10px 600px;
+}
+
+.titlemarvel{
+       color:#E6252A;
+       font-size:13pt;
+       font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding-left: 300px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float:left;
+  display: inline-block;
+  color: white;
+  font-size:12pt;
+  text-align: center;
+  /* 14= altezza 30 spazio tra parole */
+  padding: 20px 30px;
+  text-decoration: none;
+}
+
+a:link {
+    color:#4682B4;
+}
+a:visited {
+    color:#663399;
+}
+
+/* mouse over link */
+a:hover {
+    color:#17A2D4;
+} 
+/* selected link */
+a:active {
+  color: blue;
