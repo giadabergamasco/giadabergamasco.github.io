@@ -1,0 +1,136 @@
+
+* {
+  box-sizing: border-box;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+.container{
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 1fr 1fr 1fr 0.1fr;
+  grid-template-rows: 0.1fr 1fr 1fr 0.1fr 1fr 0.1fr;
+  grid-row-gap:10px;
+  font-family: sans-serif;
+  font-family: Montserrat, sans-serif;
+  background: black;
+}
+
+.navbar{
+    grid-column: 1/span 6;
+    grid-row: 1/span 1;
+    position: sticky;
+    color: white;
+    font-size: 10pt;
+    background: black;
+    padding-right: 100px;
+}
+
+.navbar ul{
+    grid-column: 1/span 6;
+}
+.navbar li{
+    grid-column: 1/span 6;
+    display:inline;
+    padding: 20px;
+}
+
+.menu {
+    color: white;
+    text-align: center;
+    grid-column: 1/ span 1;
+    grid-row: 2/span 4;
+}
+.menu div {
+    padding-bottom: 30px;
+}
+
+.main{ 
+    grid-column: 2/ span 4;
+    grid-row: 2/ span 3;
+    background-image:url("image_marvel/black-widow.jpeg");
+    background-repeat: no-repeat;
+    color: white;
+    padding-top:500px;
+    padding-left:40px;
+}
+
+.button {
+  background-color: transparent;
+  color:white;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 15px 32px;
+  margin-top:10px;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.0), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: white;
+  color: black;
+}
+.title{
+    text-align: center;
+    padding-top:100px;
+    color:#E6252A;
+}
+.right {
+    color: white;
+    grid-column: 6/span 1;
+    grid-row: 2/span 2; 
+}
+.right div {
+    writing-mode: vertical-rl;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 82px;
+}
+.button-ret {
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding:30px;
+    font-size: 16px;
+    border-bottom: 1px solid grey;
+}
+.button-ret:hover {
+  background-color:#E6252A;
+  color: black;
+}
+
+.titlemarvel {
+    font-size:12pt;
+    font-weight: bold;
+    color:lightgray;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.titlemarvel:hover {
+    color:#E6252A;
+}
+.text{
+    font-size:11pt;
+    font-family: Avenir, sans-serif;
+}
+.row {
+  grid-column: 1/span 6;
+  grid-row: 5/ span 1;
+  column-count: 3;
+  text-align: left;
+  color:white;
+  background: #3C3C3B;
+  padding:20px;
+  padding-left:120px;
+}
+
+.footer {grid-column:1/span 6; 
+         grid-row: 6/ span 1;
+         text-align: center;
+         color: white;
+         font-size:8px;
+}
+
